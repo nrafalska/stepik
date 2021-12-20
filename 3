@@ -1,0 +1,15 @@
+import java.util.Scanner;
+class Example {
+	public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        int x = scan.nextInt();
+        int y = scan.nextInt();
+        int z = scan.nextInt();
+        int a = scan.nextInt();
+        if (((Math.max(Math.max(x, y), z))-(Math.min(Math.min(x, y), z)))>a){
+        System.out.println("Ура, бастуем!");
+        }else{
+        System.out.println("За работу, Солнце ещё высоко");
+        }
+    }
+}
